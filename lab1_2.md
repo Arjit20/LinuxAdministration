@@ -1,34 +1,16 @@
-# Experiment 1: Creating Files and Directories in Linux
+Experiment 1
 
-## Objective
-Learn to create directories, generate multiple files, and organize them efficiently.
+Use the touch command to create sets of empty practice files to use during this lab. In each set, replace X with the numbers 1 through 6. Create six files with names of the form songX.mp3, snapX.jpg, filmX.avi. 
 
-## Steps
+Approach - use touch command to create 6 files. 
 
-### *1. Navigate to Desktop*
-bash
-cd Desktop
+![Screenshot 2025-03-19 111204](https://github.com/user-attachments/assets/24c7f619-08bc-4462-9953-e1eee02386bc)
 
 
-### *2. Create Directories*
-bash
-mkdir friends family work
+Experiment 2
 
+Create three subdirectories for organizing your files, and name the subdirectories friends, family, and work. Use a single command to create all three subdirectories at the same time
 
-### *3. Create Files in Each Directory*
-bash
-cd friends && touch song{1..6}.mp3 snap{1..6}.jpg film{1..6}.avi && cd ..
-cd family && touch song{1..6}.mp3 snap{1..6}.jpg film{1..6}.avi && cd ..
-cd work && touch song{1..6}.mp3 snap{1..6}.jpg film{1..6}.avi && cd ..
+Approach - use mkdir to create three subdirectories.
 
-
-### *4. Verify File Creation*
-bash
-ls friends family work
-
-
-## Conclusion
-Successfully created directories and organized files. If directories do not exist, check for typos or permission issues.
-
-## Screenshot
-<img width="640" alt="Screenshot 2025-03-19 at 10 15 46 AM" src="https://github.com/user-attachments/assets/854b4a52-4e9d-45e3-8ec4-72c8c8bbc96b" />
+![Screenshot 2025-03-19 111230](https://github.com/user-attachments/assets/6da87444-6a8d-4b10-90f9-cff9a255475d)
