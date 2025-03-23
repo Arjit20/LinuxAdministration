@@ -1,46 +1,15 @@
-# **Experiment - 3 & 4**  
+Experiment 3
 
-*View the gedit man page. Use the `man -k ext4` command to find the command to tune ext4 file-system parameters. Brace expansion is used to generate discretionary strings of characters. Braces contain a comma-separated list of strings, or a sequence expression. The result includes the text that precedes or follows the brace definition.*  
-#
+View the gedit man page. Use the man -k ext4 command to find the command to tune ext4 file-system parameters.
 
-### **Approach**  
-- Use the `man` command to view manual pages and search for commands related to `ext4`.  
-- Utilize brace expansion to generate sequences efficiently.  
+Approach - man command is used to view the manual pages.
+![Screenshot 2025-03-19 112157](https://github.com/user-attachments/assets/c383487d-6f14-4a94-ab06-0dd6c49253db)
 
-### **Syntax**  
 
-**`man [command]`**  
-   Displays the manual page for the specified command.  
+Experiment 4
 
-**`man -k [keyword]`**  
-   Searches for the keyword in the manual pages and lists all matching entries.  
+Brace expansion is used to generate discretionary strings of characters. Braces contain a comma-separated list of strings,or a sequence expression. The result includes the text that precedes or follows the brace definition.
 
-**`echo [pattern]`**  
-   Outputs the result of a pattern or variable expansion.  
+Approach - To use brace expansion Syntax for brace expansion {} Syntax for sequence expression with brace expansion {start..stop..step}
 
-**`echo {start..end}`**  
-   Expands a range of values from `start` to `end` and outputs the result.  
-
----
-
-### **Example**
-
-```
-man gedit
-
-```
-
-```
-man -k ext4
-
-```
-
-```
-echo file{1,2,3}.txt
-
-```
-
-```
-echo {a..e}
-
-```
+![Screenshot 2025-03-19 112932](https://github.com/user-attachments/assets/9d0fd970-477a-4b26-b415-6abf559ced9d)
